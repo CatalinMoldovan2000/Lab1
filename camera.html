@@ -1,9 +1,24 @@
 <!DOCTYPE html>
 <html>
-    <body>
-        <video width="640" height="480" id = "video" controls autoplay/></video>
-    <canvas id = "canvas"></canvas>
-    <button type="button" onclick = "capteaza()">Capteaza
-</body>
+
+<style>
+    .button 
+    {
+        background-color: yellowgreen;
+        color: black;
+    }
+
+</style>
+
+<body>
+
+<video onclick="capteaza()" width="640" height="480" id = "video" controls autoplay/></video>
+
+<canvas id = "canvas"> </canvas>
+
+
+<button class="button" type="button" onclick = "capteaza()"> Fa o captura  </body>
+
 <script src="camera.js"/></script>
+
 </html>
